@@ -1,15 +1,15 @@
 from openpyxl import load_workbook
 from flask import Flask, request, render_template, redirect, url_for, send_from_directory, send_file
 import time
-from difflib import SequenceMatcher
+#from difflib import SequenceMatcher
 from openpyxl import load_workbook
 from openpyxl import Workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
 import xlsxwriter
 import re
 import pandas
-import zipfile
-import io
+#import zipfile
+#import io
 
 app = Flask(__name__)
 
